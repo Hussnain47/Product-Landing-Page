@@ -74,6 +74,18 @@ a {
   margin-top: 5rem;
 }
 
+@media (max-width: 900px) {
+  .home-page {
+    height: 35rem !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-page {
+    height: 20rem !important;
+  }
+}
+
 .img-fluid {
   width: 100%;
 }
