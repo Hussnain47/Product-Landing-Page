@@ -57,6 +57,12 @@ a {
   width: fit-content;
 }
 
+@media (min-width: 500px) {
+  .buy-btn {
+    margin-left: 0;
+  }
+}
+
 .buy-btn:hover {
   color: #338b24 !important;
 }
