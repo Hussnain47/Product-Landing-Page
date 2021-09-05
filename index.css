@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  color: gray;
+}
+
+@media (max-width: 460px) {
+  a {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+}
+
+.navbar-brand {
+  color: #6ed05c !important;
+  font-weight: bolder !important;
+}
+
+.navbar-brand:hover {
+  color: #86fd71 !important;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #86fd71;
+}
+
+.logo {
+  background-color: #6ed05c;
+  color: white;
+  border-radius: 20%;
+  padding: 0.2rem;
+  padding-top: 0;
+  margin-right: 0.2rem;
+}
+
+.buy-btn {
+  background-color: #6ed05c;
+  border-radius: 10%;
+  color: white !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-decoration: solid;
+  width: fit-content;
+}
+
+.buy-btn:hover {
+  color: #338b24 !important;
+}
+
+.home-page {
+  margin-left: auto;
+  margin-right: auto;
+  height: 50rem !important;
+  margin-top: 5rem;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.silent-text {
+  color: gray;
+  margin: 0;
+}
+
+.buy-btn-big {
+  background-color: #6ed05c;
+  margin-top: 1rem;
+  color: white;
+  padding: 0.5rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  width: fit-content;
+  box-shadow: 1px 4px 15px 6px rgba(110, 208, 92, 0.75);
+}
+
+.buy-btn-big:hover {
+  box-shadow: 1px 8px 25px 6px rgba(110, 208, 92, 0.75);
+  color: white;
+  text-decoration: none;
+}
+
+.features {
+  background: #f3f3f3;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.feature-header {
+  font-weight: 350;
+}
+
+.feature-cards {
+  padding-top: 5rem;
+  max-width: fit-content;
+  align-self: center;
+}
+
+.card {
+  background-color: #f3f3f3;
+  border: none;
+  margin-left: 3rem;
+  max-width: 20rem;
+}
+
+.fas,
+.far {
+  padding: 1rem;
+}
+
+.side-feature .row {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
